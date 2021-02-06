@@ -16,10 +16,10 @@ import re
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
-consumer_key = 'coyFAe2L2e3FiLkL0mjZvfCmg'
-consumer_secret = 'u5pfAib1tZKN6W000gWu0xIk2MuH42sMZNpTOxcCAX1JotgFdk'
-acces_token = '1197336121107050496-Fd2yrKdy9fbweM7DEM8U4Nv28wbtHe'
-acces_t_secret = '970VFEOPXoyXdbYra0C0iU0rQYTCEXJONU1eclGuB4PkF'
+consumer_key = 'tuconsumerkey'
+consumer_secret = 'tuconsumersecret'
+acces_token = 'tuaccestoken'
+acces_t_secret = 'tuaccestokensecret'
 
 authenticate = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
